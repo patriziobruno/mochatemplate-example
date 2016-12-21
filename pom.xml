@@ -13,14 +13,6 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
-    <dependencies>
-        <dependency>
-            <groupId>net.desertconsulting</groupId>
-            <artifactId>mochatemplate</artifactId>
-            <version>0.0.6</version>
-        </dependency>
-    </dependencies>
 
     <build>
         <plugins>
@@ -53,4 +45,11 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>mochatemplate</artifactId>
+            <version>0.0.7</version>
+        </dependency>
+    </dependencies>
 </project>
